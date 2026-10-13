@@ -1,0 +1,97 @@
+{
+  "title": "Acme Feedback",
+  "repo": "acme/feedback",
+  "newUrl": "https://github.com/acme/feedback/issues/new?labels=feedback&template=feedback.yml",
+  "updated": "2026-10-13T15:00:00.000Z",
+  "statuses": {
+    "open": "Under review",
+    "planned": "Planned",
+    "in_progress": "In progress",
+    "shipped": "Shipped",
+    "declined": "Not planned"
+  },
+  "items": [
+    {
+      "number": 3,
+      "title": "Dark mode",
+      "excerpt": "Body for Dark mode",
+      "status": "shipped",
+      "votes": 58,
+      "comments": 0,
+      "created": "2026-10-01T10:00:00Z",
+      "closed": "2026-10-12T00:00:00Z",
+      "url": "https://github.com/acme/feedback/issues/3",
+      "tags": []
+    },
+    {
+      "number": 1,
+      "title": "Zapier integration",
+      "excerpt": "Body for Zapier integration",
+      "status": "planned",
+      "votes": 42,
+      "comments": 7,
+      "created": "2026-10-01T10:00:00Z",
+      "closed": null,
+      "url": "https://github.com/acme/feedback/issues/1",
+      "tags": [
+        "integrations"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CSV export",
+      "excerpt": "Body for CSV export",
+      "status": "in_progress",
+      "votes": 31,
+      "comments": 0,
+      "created": "2026-10-01T10:00:00Z",
+      "closed": null,
+      "url": "https://github.com/acme/feedback/issues/2",
+      "tags": []
+    },
+    {
+      "number": 8,
+      "title": "SSO / SAML login",
+      "excerpt": "Body for SSO / SAML login",
+      "status": "planned",
+      "votes": 27,
+      "comments": 0,
+      "created": "2026-10-01T10:00:00Z",
+      "closed": null,
+      "url": "https://github.com/acme/feedback/issues/8",
+      "tags": []
+    },
+    {
+      "number": 4,
+      "title": "Mobile app",
+      "excerpt": "Body for Mobile app",
+      "status": "open",
+      "votes": 19,
+      "comments": 0,
+      "created": "2026-10-01T10:00:00Z",
+      "closed": null,
+      "url": "https://github.com/acme/feedback/issues/4",
+      "tags": []
+    },
+    {
+      "number": 9,
+      "title": "Slack notifications",
+      "excerpt": "Body for Slack notifications",
+      "status": "shipped",
+      "votes": 14,
+      "comments": 0,
+      "created": "2026-10-01T10:00:00Z",
+      "closed": null,
+      "url": "https://github.com/acme/feedback/issues/9",
+      "tags": []
+    }
+  ],
+  "changelog": [
+    {
+      "id": "2026-10-12-dark-mode",
+      "title": "Dark mode is here",
+      "date": "2026-10-12",
+      "url": "https://acme.github.io/feedback/changelog.html#2026-10-12-dark-mode"
+    }
+  ]
+}
