@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F3QH6E9QR7"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-F3QH6E9QR7');
+<!-- GA4 loads only after consent: /assets/consent.js -->
+<script>window.dataLayer=window.dataLayer||[];function gtag(){var t=arguments[0];if(t==='event'&&!window.__omConsent)return;dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});gtag('js',new Date());gtag('config','G-F3QH6E9QR7');
 document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="gumroad.com"]'):null;if(!a)return;var m=a.href.match(/\/l\/([^\/?#]+)/),s=m?m[1]:'';var N={"answerloft":"Answerloft","bcmhvk":"Okayline","bjkyj":"Thumbtally","ekunvc":"Proposeroo Team","ijsmuq":"PeelPixel Pro","kzjcwp":"Proposeroo Pro","lyrgdx":"Rate Calculator Spreadsheet","pckinc":"Rate-Raise Email Rewrite","kudoshelf":"Kudoshelf","proposeroo-desk":"Proposeroo Desk","proposeroo-desk-team":"Proposeroo Desk Team","ctitql":"Freelance Rate Pack","jtocar":"Client OS","vwxgu":"Prompt Pack","oellyq":"Budget Template","bffum":"Rate Mini (free)","mceana":"Freelancer Toolkit Bundle","nqpwfg":"Raise Emails (free)"};gtag('event','buy_click',{product_name:a.getAttribute('data-product')||N[s]||s||'gumroad',product_slug:s,link_url:a.href,link_text:(a.textContent||'').trim().slice(0,80),transport_type:'beacon'});},true);</script>
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Roadmap · Acme Feedback</title>
 <meta name="description" content="Request features, vote on ideas, and see what we&#39;re building."><link rel="alternate" type="application/rss+xml" title="Acme Feedback changelog" href="feed.xml"><style>:root{--a:#7c3aed}*{box-sizing:border-box}body{font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f8fafc;color:#0f172a}
@@ -26,4 +26,5 @@ footer{text-align:center;color:#94a3b8;font-size:12px;margin-top:30px}.empty{col
 <a class="vote" href="#" title="Vote with 👍 on GitHub"><b>58</b>votes</a><div><h3><a href="#">Dark mode</a></h3>
 <div class="meta"><span class="pill shipped">Shipped</span>0 comments · #3</div></div></div><div class="card" data-status="shipped" data-text="slack notifications body for slack notifications">
 <a class="vote" href="#" title="Vote with 👍 on GitHub"><b>14</b>votes</a><div><h3><a href="#">Slack notifications</a></h3>
-<div class="meta"><span class="pill shipped">Shipped</span>0 comments · #9</div></div></div></div></div><footer>Votes are 👍 reactions on GitHub issues · updated Oct 13, 2026 · Powered by Thumbtally</footer></main></body></html>
+<div class="meta"><span class="pill shipped">Shipped</span>0 comments · #9</div></div></div></div></div><footer>Votes are 👍 reactions on GitHub issues · updated Oct 13, 2026 · Powered by Thumbtally</footer></main><script src="/assets/consent.js" defer></script>
+</body></html>
